@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>XP table</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="xptable.js"></script>
+	<link rel="stylesheet" href="xptable.css">
+</head>
+<body style="background-color: #dadada">
+
+
+    <table class="wikitable xpcalc mw-collapsible limitwidth-1280" id="xpcalc-character" data-type="character" data-levelcap="85" data-creditprice="7">
+
+        <tr class="summary">
+            <td>
+                <div class="controls limitwidth-720">
+                    <div class="levels">
+                        <span class="level-from">Level: </span> → 
+                        <span class="level-to"></span>
+                    </div>
+                    <div class="items">
+                        <div class="item item-1" data-type="item" data-itemnumber="1" data-value="50">[[File:Item_Icon_ExpItem_0.png|62px|link=|Novice Activity Report (50 Exp)]]</div>
+                        <div class="item item-2" data-type="item" data-itemnumber="2" data-value="500">[[File:Item_Icon_ExpItem_1.png|62px|link=|Normal Activity Report (500 Exp)]]</div>
+                        <div class="item item-3" data-type="item" data-itemnumber="3" data-value="2000">[[File:Item_Icon_ExpItem_2.png|62px|link=|Advanced Activity Report (2000 Exp)]]</div>
+                        <div class="item item-4" data-type="item" data-itemnumber="4" data-value="10000">[[File:Item_Icon_ExpItem_3.png|62px|link=|Superior Activity Report (1000 Exp)]]</div>
+                    </div>
+                    <div class="output">
+                        <div class="total-xp">Total Exp: <span></span></div>
+                        <div class="total-credits">{{ItemCard|Credits}} cost: <span></span></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="data">
+
+                <div class="xptable">
+                    <div class="header">
+                        <div><span class="level">Level</span><span class="xp">EXP to next level</span><span class="total_xp">Total EXP</span></div>
+                    </div>
+                    <div class="content">
+                        <div><span class="level">1</span><span class="xp">10</span><span class="total_xp">0</span></div><div><span class="level">2</span><span class="xp">25</span><span class="total_xp">10</span></div><div><span class="level">3</span><span class="xp">40</span><span class="total_xp">35</span></div><div><span class="level">4</span><span class="xp">55</span><span class="total_xp">75</span></div><div><span class="level">5</span><span class="xp">70</span><span class="total_xp">130</span></div><div><span class="level">6</span><span class="xp">75</span><span class="total_xp">200</span></div><div><span class="level">7</span><span class="xp">80</span><span class="total_xp">275</span></div><div><span class="level">8</span><span class="xp">90</span><span class="total_xp">355</span></div><div><span class="level">9</span><span class="xp">95</span><span class="total_xp">445</span></div><div><span class="level">10</span><span class="xp">105</span><span class="total_xp">540</span></div>
+                        <div><span class="level">11</span><span class="xp">115</span><span class="total_xp">645</span></div><div><span class="level">12</span><span class="xp">130</span><span class="total_xp">760</span></div><div><span class="level">13</span><span class="xp">145</span><span class="total_xp">890</span></div><div><span class="level">14</span><span class="xp">160</span><span class="total_xp">1035</span></div><div><span class="level">15</span><span class="xp">175</span><span class="total_xp">1195</span></div><div><span class="level">16</span><span class="xp">185</span><span class="total_xp">1370</span></div><div><span class="level">17</span><span class="xp">200</span><span class="total_xp">1555</span></div><div><span class="level">18</span><span class="xp">215</span><span class="total_xp">1755</span></div><div><span class="level">19</span><span class="xp">230</span><span class="total_xp">1970</span></div><div><span class="level">20</span><span class="xp">385</span><span class="total_xp">2200</span></div>
+                        <div><span class="level">21</span><span class="xp">425</span><span class="total_xp">2585</span></div><div><span class="level">22</span><span class="xp">480</span><span class="total_xp">3010</span></div><div><span class="level">23</span><span class="xp">535</span><span class="total_xp">3490</span></div><div><span class="level">24</span><span class="xp">580</span><span class="total_xp">4025</span></div><div><span class="level">25</span><span class="xp">635</span><span class="total_xp">4605</span></div><div><span class="level">26</span><span class="xp">785</span><span class="total_xp">5240</span></div><div><span class="level">27</span><span class="xp">845</span><span class="total_xp">6025</span></div><div><span class="level">28</span><span class="xp">895</span><span class="total_xp">6870</span></div><div><span class="level">29</span><span class="xp">925</span><span class="total_xp">7765</span></div><div><span class="level">30</span><span class="xp">975</span><span class="total_xp">8690</span></div>
+                        <div><span class="level">31</span><span class="xp">1010</span><span class="total_xp">9665</span></div><div><span class="level">32</span><span class="xp">1095</span><span class="total_xp">10675</span></div><div><span class="level">33</span><span class="xp">1165</span><span class="total_xp">11770</span></div><div><span class="level">34</span><span class="xp">1250</span><span class="total_xp">12935</span></div><div><span class="level">35</span><span class="xp">1335</span><span class="total_xp">14185</span></div><div><span class="level">36</span><span class="xp">1425</span><span class="total_xp">15520</span></div><div><span class="level">37</span><span class="xp">1545</span><span class="total_xp">16945</span></div><div><span class="level">38</span><span class="xp">1625</span><span class="total_xp">18490</span></div><div><span class="level">39</span><span class="xp">1685</span><span class="total_xp">20115</span></div><div><span class="level">40</span><span class="xp">1735</span><span class="total_xp">21800</span></div>
+                        <div><span class="level">41</span><span class="xp">1800</span><span class="total_xp">23535</span></div><div><span class="level">42</span><span class="xp">1975</span><span class="total_xp">25335</span></div><div><span class="level">43</span><span class="xp">2165</span><span class="total_xp">27310</span></div><div><span class="level">44</span><span class="xp">2370</span><span class="total_xp">29475</span></div><div><span class="level">45</span><span class="xp">2585</span><span class="total_xp">31845</span></div><div><span class="level">46</span><span class="xp">2815</span><span class="total_xp">34430</span></div><div><span class="level">47</span><span class="xp">3065</span><span class="total_xp">37245</span></div><div><span class="level">48</span><span class="xp">3340</span><span class="total_xp">40310</span></div><div><span class="level">49</span><span class="xp">3645</span><span class="total_xp">43650</span></div><div><span class="level">50</span><span class="xp">3985</span><span class="total_xp">47295</span></div>
+                        <div><span class="level">51</span><span class="xp">4365</span><span class="total_xp">51280</span></div><div><span class="level">52</span><span class="xp">4790</span><span class="total_xp">55645</span></div><div><span class="level">53</span><span class="xp">5265</span><span class="total_xp">60435</span></div><div><span class="level">54</span><span class="xp">5795</span><span class="total_xp">65700</span></div><div><span class="level">55</span><span class="xp">6385</span><span class="total_xp">71495</span></div><div><span class="level">56</span><span class="xp">7040</span><span class="total_xp">77880</span></div><div><span class="level">57</span><span class="xp">7765</span><span class="total_xp">84920</span></div><div><span class="level">58</span><span class="xp">8565</span><span class="total_xp">92685</span></div><div><span class="level">59</span><span class="xp">9445</span><span class="total_xp">101250</span></div><div><span class="level">60</span><span class="xp">10410</span><span class="total_xp">110695</span></div>
+                        <div><span class="level">61</span><span class="xp">11465</span><span class="total_xp">121105</span></div><div><span class="level">62</span><span class="xp">12615</span><span class="total_xp">132570</span></div><div><span class="level">63</span><span class="xp">13865</span><span class="total_xp">145185</span></div><div><span class="level">64</span><span class="xp">15220</span><span class="total_xp">159050</span></div><div><span class="level">65</span><span class="xp">16685</span><span class="total_xp">174270</span></div><div><span class="level">66</span><span class="xp">18265</span><span class="total_xp">190955</span></div><div><span class="level">67</span><span class="xp">19965</span><span class="total_xp">209220</span></div><div><span class="level">68</span><span class="xp">21790</span><span class="total_xp">229185</span></div><div><span class="level">69</span><span class="xp">23745</span><span class="total_xp">250975</span></div><div><span class="level">70</span><span class="xp">25700</span><span class="total_xp">274720</span></div>
+                        <div><span class="level">71</span><span class="xp">27655</span><span class="total_xp">300420</span></div><div><span class="level">72</span><span class="xp">29610</span><span class="total_xp">328075</span></div><div><span class="level">73</span><span class="xp">31565</span><span class="total_xp">357685</span></div><div><span class="level">74</span><span class="xp">33520</span><span class="total_xp">389250</span></div><div><span class="level">75</span><span class="xp">35475</span><span class="total_xp">422770</span></div><div><span class="level">76</span><span class="xp">37430</span><span class="total_xp">458245</span></div><div><span class="level">77</span><span class="xp">39385</span><span class="total_xp">495675</span></div><div><span class="level">78</span><span class="xp">39385</span><span class="total_xp">535060</span></div><div><span class="level">79</span><span class="xp">39385</span><span class="total_xp">574445</span></div><div><span class="level">80</span><span class="xp">39385</span><span class="total_xp">613830</span></div>
+                        <div><span class="level">81</span><span class="xp">39385</span><span class="total_xp">653215</span></div><div><span class="level">82</span><span class="xp">39385</span><span class="total_xp">692600</span></div><div><span class="level">83</span><span class="xp">39385</span><span class="total_xp">731985</span></div><div><span class="level">84</span><span class="xp">43295</span><span class="total_xp">771370</span></div><div><span class="level">85</span><span class="xp">0</span><span class="total_xp">814665</span></div>
+                    </div>
+                </div>
+
+
+
+            </td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+</html>
