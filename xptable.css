@@ -109,11 +109,13 @@
 }
 
 .xpcalc .controls input {
-	width: 44px;
+    width: 44px;
     font-size: 17px;
-    border: none;
+    border: 1px solid #eaecf0;
+    /* border: none; */
     background-color: rgba(255,255,255,1);
     border-radius: 3px;
+    text-align: center;
 }
 
 .xpcalc .controls > .output {
@@ -157,4 +159,8 @@
 
 .xpcalc td.data {
     padding: 0;
+}
+
+.xpcalc-affection .controls > .items .item > img {
+    padding: 6px 12px;
 }
